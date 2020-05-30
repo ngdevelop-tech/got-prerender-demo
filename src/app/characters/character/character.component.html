@@ -1,0 +1,14 @@
+<div class="card text-left col-md-12 p-1 " *ngIf="character$ | async as character">
+    <h4 class="bg-dark text-white p-2">{{character.name}}</h4>
+    <h5>Played by  : {{character.playedBy}}</h5>
+    <p>Also known as : {{character.aliases}}</p>
+    <ul>
+        <li> Titles : {{character.titles}}</li>
+        <li> Born : {{character.born}}</li>
+        <li> Culture : {{character.culture}}</li>
+        <li> Father : {{character.father}}</li>
+        <li> Mother : {{character.mother}}</li>
+        <li> Spouce : {{character.spouse}}</li>
+        <li> Died : {{character.died | json}}</li>
+    </ul>
+</div>

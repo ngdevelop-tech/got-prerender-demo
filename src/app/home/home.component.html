@@ -1,0 +1,13 @@
+<div class="row text-left">
+    <div class="card col-md-4 p-1 " *ngFor="let book of books$ | async">
+        <h4 class="bg-dark text-white p-2">{{book.name}}</h4>
+        <h6> ISBN : {{book.isbn}}</h6>
+        <ul>
+            <li> Country : {{book.country}}</li>
+            <li> Authors : {{book.authors}}</li>
+            <li> Publisher : {{book.publisher}}</li>
+            <li> Released : {{book.released | date}}</li>
+            <li> Media Type : {{book.mediaType}}</li>
+        </ul>
+    </div>
+</div>

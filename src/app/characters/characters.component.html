@@ -1,0 +1,12 @@
+<div class="row text-left">
+    <div class="card col-md-4 p-1 " *ngFor="let c of characters$ | async">
+        <h4 class="bg-dark text-white p-2">{{c.name}}</h4>
+        <h5>Played by {{c.playedBy}}</h5>
+        <p>Also known as {{c.aliases}}</p>
+        <ul>
+            <li> Titles : {{c.titles}}</li>
+            <li> Born : {{c.born}}</li>
+            <li> Culture : {{c.culture}}</li>
+        </ul>
+    </div>
+</div>
