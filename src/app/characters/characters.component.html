@@ -8,5 +8,6 @@
             <li> Born : {{c.born}}</li>
             <li> Culture : {{c.culture}}</li>
         </ul>
+        <a class="badge badge-primary" [routerLink]="['/characters', c.id]" routerLinkActive="router-link-active" >More Details</a>
     </div>
 </div>

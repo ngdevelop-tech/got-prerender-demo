@@ -8,7 +8,7 @@ import { GotService } from '../got.service';
 })
 export class CharactersComponent implements OnInit {
 
-  characters$ = this.gotService.getGotCharacters(57, 10)
+  characters$ = this.gotService.getGotCharacters(57, 10);
 
   constructor(private gotService: GotService) { }
 

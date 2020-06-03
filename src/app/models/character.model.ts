@@ -8,5 +8,7 @@ export interface Character{
     father: string,
     mother: string,
     spouse: string,
-    playedBy: string[]
+    playedBy: string[],
+    id: string;
+    url:string;
 }

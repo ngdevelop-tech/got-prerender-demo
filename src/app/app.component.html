@@ -1,12 +1,12 @@
-<div class="container text-center" >
-  <h1>Game of Thrones</h1>
-  <ul class="nav nav-tabs nav-stacked">
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" routerLink="/characters" routerLinkActive="active">Characters</a>
-    </li>
-  </ul>
+<nav class="navbar navbar-expand navbar-light bg-light">
+    <div class="nav navbar-nav">
+        <h5 class="nav-item nav-link">GAME OF THRONES</h5>
+        <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+        <a class="nav-link" routerLink="/books" routerLinkActive="active">Books</a>
+        <a class="nav-link" routerLink="/characters" routerLinkActive="active">Characters</a>
+      </div>
+</nav>
+
+<div class="container" >
   <router-outlet></router-outlet>
 </div>

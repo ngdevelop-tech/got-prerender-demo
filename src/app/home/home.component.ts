@@ -8,9 +8,7 @@ import { GotService } from '../got.service';
 })
 export class HomeComponent implements OnInit {
 
-  books$ = this.gotService.getGotBooks();
-
-  constructor(private gotService: GotService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
