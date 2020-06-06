@@ -8,7 +8,9 @@ const routes: Routes = [
   { path: 'characters', loadChildren: () => import('./characters/characters.module').then(m => m.CharactersModule) },
   { path: 'books', loadChildren: () => import('./books/books.module').then(m => m.BooksModule) }];
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    initialNavigation: 'enabled'
+})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
