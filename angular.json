@@ -157,9 +157,7 @@
           "options": {
             "browserTarget": "got-prerender-demo:build:production",
             "serverTarget": "got-prerender-demo:server:production",
-            "routes": [
-              "/"
-            ]
+            "routesFile": "./dynamic-routes.txt"
           },
           "configurations": {
             "production": {}

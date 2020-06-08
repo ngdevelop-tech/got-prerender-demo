@@ -1,0 +1,9 @@
+/characters/1
+/characters/2
+/characters/3
+/characters/583
+/characters/584
+/characters/585
+
+
+
