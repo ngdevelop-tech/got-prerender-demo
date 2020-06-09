@@ -1,0 +1,22 @@
+{
+  "hosting": [
+    {
+      "target": "got-prerender-demo",
+      "public": "dist\\got-prerender-demo\\dist\\got-prerender-demo\\browser",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "function": "ssr"
+        }
+      ]
+    }
+  ],
+  "functions": {
+    "source": "dist/got-prerender-demo"
+  }
+}

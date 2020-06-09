@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "got-prerender-demo": {
+      "hosting": {
+        "got-prerender-demo": [
+          "got-prerender-demo"
+        ]
+      }
+    }
+  }
+}
