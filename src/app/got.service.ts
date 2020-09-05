@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class GotService {
 
-  BASE_URL = 'https://www.anapioficeandfire.com/api/';
+  BASE_URL = 'https://www.anapioficeandfire.com/api';
 
   constructor(private httpClient: HttpClient) { }
 
